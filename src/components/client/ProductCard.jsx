@@ -51,6 +51,7 @@ export default function ProductCard({ product, onAddToCart, onToggleWishlist, is
           onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.08)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(245,200,66,0.08), rgba(141,213,208,0.06))', pointerEvents: 'none' }} />
 
         {product.isNew && (
           <span style={{

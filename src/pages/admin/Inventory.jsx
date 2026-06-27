@@ -105,7 +105,7 @@ export default function Inventory() {
       key: 'product', label: 'Produit', render: (row) => (
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <img src={row.productImage} alt={row.productName} style={{ width: '36px', height: '36px', borderRadius: 'var(--radius-sm)', objectFit: 'cover' }}
-            onError={(e) => { e.currentTarget.src = 'https://via.placeholder.com/36'; }}
+            onError={(e) => { e.currentTarget.src = 'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg'; }}
           />
           <div>
             <div style={{ fontSize: '12px', fontWeight: 600, color: 'var(--c-gray-900)' }}>{row.productName}</div>

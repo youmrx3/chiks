@@ -101,15 +101,15 @@ export default function HeroBanner() {
           <svg viewBox="0 0 500 500" style={{ width: '100%', maxWidth: 480, height: 'auto' }}>
             <defs>
               <linearGradient id="blobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="var(--c-yellow-pale)" />
-                <stop offset="100%" stopColor="var(--c-mint-pale)" />
+                <stop offset="0%" stopColor="#FFF5E0" />
+                <stop offset="100%" stopColor="#FDF7DC" />
               </linearGradient>
             </defs>
             <path d="M250 60C340 60 440 120 450 220C460 320 380 440 300 460C220 480 120 400 80 320C40 240 160 60 250 60Z" fill="url(#blobGrad)" />
           </svg>
 
           <img
-            src="https://picsum.photos/seed/hero-product/400/500"
+            src="https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg"
             alt="Collection CHICKS"
             style={{
               position: 'absolute', width: '60%', height: 'auto',

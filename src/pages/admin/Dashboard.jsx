@@ -443,7 +443,7 @@ export default function Dashboard() {
                     #{i + 1}
                   </div>
                   <img
-                    src={`https://picsum.photos/seed/${p.id.toLowerCase()}/80/80`}
+                    src={"https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg"}
                     alt={p.name}
                     style={{ width: '40px', height: '40px', borderRadius: 'var(--radius-sm)', objectFit: 'cover', flexShrink: 0 }}
                   />

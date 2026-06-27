@@ -123,6 +123,7 @@ export default function ProductDetail() {
               alt={product.name}
               style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s' }}
             />
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(245,200,66,0.06), rgba(141,213,208,0.04))', pointerEvents: 'none' }} />
             {product.isNew && (
               <span style={{ position: 'absolute', top: 16, left: 16, padding: '6px 14px', borderRadius: 'var(--radius-pill)', background: 'var(--c-mint)', color: '#fff', fontSize: 11, fontWeight: 700, zIndex: 2 }}>NOUVEAU</span>
             )}

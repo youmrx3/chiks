@@ -15,13 +15,13 @@ import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
 
 const CATEGORIES = [
+  { name: 'Nouveaux-nés', icon: '👶', count: 5 },
+  { name: 'Bébé', icon: '🍼', count: 6 },
+  { name: 'Tout-petits', icon: '🧸', count: 5 },
+  { name: 'Enfants', icon: '🧒', count: 4 },
   { name: 'Knitwear', icon: '🧶', count: 8 },
   { name: 'Manteaux', icon: '🧥', count: 6 },
-  { name: 'Nouveaux-nés', icon: '👶', count: 5 },
-  { name: 'Tout-petits', icon: '🧸', count: 5 },
-  { name: 'Enfants', icon: '👧', count: 4 },
-  { name: 'Accessoires', icon: '🧢', count: 2 },
-  { name: 'Soldes', icon: '🏷️', count: 6 },
+  { name: 'Accessoires', icon: '🎀', count: 2 },
 ];
 
 const FEATURES = [
@@ -32,9 +32,9 @@ const FEATURES = [
 ];
 
 const INSTAGRAM_POSTS = [
-  'https://picsum.photos/seed/ig1/300/300', 'https://picsum.photos/seed/ig2/300/300',
-  'https://picsum.photos/seed/ig3/300/300', 'https://picsum.photos/seed/ig4/300/300',
-  'https://picsum.photos/seed/ig5/300/300', 'https://picsum.photos/seed/ig6/300/300',
+  'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg', 'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg',
+  'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg', 'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg',
+  'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg', 'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg',
 ];
 
 export default function Home() {
@@ -130,10 +130,10 @@ export default function Home() {
           >
             <style>{`@media (max-width: 768px) { .brand-story-grid { grid-template-columns: 1fr !important; gap: 40px !important; } }`}</style>
             <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 400 }}>
-              <img src="https://picsum.photos/seed/story-main/400/500" alt="CHICKS Story"
+              <img src="https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg" alt="CHICKS Story"
                 style={{ width: '70%', borderRadius: 'var(--radius-lg)', objectFit: 'cover', aspectRatio: '4/5', position: 'relative', zIndex: 2, boxShadow: 'var(--shadow-hover)' }}
               />
-              <img src="https://picsum.photos/seed/story-overlay/300/400" alt=""
+              <img src="https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg" alt=""
                 style={{ position: 'absolute', bottom: '5%', left: '5%', width: '45%', borderRadius: 'var(--radius-lg)', objectFit: 'cover', aspectRatio: '3/4', zIndex: 3, border: '4px solid var(--c-white)', boxShadow: 'var(--shadow-hover)' }}
               />
               <motion.div

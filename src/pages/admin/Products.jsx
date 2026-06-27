@@ -76,7 +76,7 @@ export default function Products() {
     {
       key: 'image', label: '', render: (row) => (
         <img src={row.images?.[0]} alt={row.name} style={{ width: '52px', height: '52px', borderRadius: 'var(--radius-sm)', objectFit: 'cover' }}
-          onError={(e) => { e.currentTarget.src = 'https://via.placeholder.com/52'; }}
+          onError={(e) => { e.currentTarget.src = 'https://t4.ftcdn.net/jpg/06/29/41/61/360_F_629416158_owvmTg2Kp6GVw7NZQ1swCKkLUaSsVPqW.jpg'; }}
         />
       ),
     },

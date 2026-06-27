@@ -22,8 +22,10 @@ export default function CategoryPill({ name, icon, count, active, onClick }) {
         background: 'var(--c-yellow-pale)', display: 'flex',
         alignItems: 'center', justifyContent: 'center', flexShrink: 0,
       }}>
-        {typeof icon === 'string' ? (
+        {typeof icon === 'string' && icon.startsWith('http') ? (
           <img src={icon} alt="" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+        ) : typeof icon === 'string' ? (
+          <span style={{ fontSize: 28 }}>{icon}</span>
         ) : Icon ? (
           <Icon size={28} style={{ color: 'var(--c-yellow-deep)' }} />
         ) : null}
